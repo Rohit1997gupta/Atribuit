@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:black;
+     min-height: 100vh; 
+    border: 10px solid rgb(78, 75, 59);
+    color: white;
+
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.top-section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.top-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    
+}
+.top-section h4{
+    font-size: 20px;
+    text-align: end;
+}
+
+.image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image,
+img {
+    width: 300px;
+    height: 320px;
+}
+.about{
+    margin-top: 50px;
+}
+.about h2{
+    font-size:50px;
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    text-align: justify;
+    margin-top: 10
+}
+.biography{
+    margin-top: 50px;
+}
+.biography h3{
+    margin-top: 30px;
+    font-size: 50px;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+}
+ul li{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 1.3px;
+    text-align: justify;
+}
+
+ .company{
+    margin-top: 2rem;
+ }
+.company p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.about-tesla{
+    display: flex;
+}
+.about-tesla h5{
+    font-size: 30px;
+    margin-left: 1rem;
+}
+.about-space{
+    display: flex;
+    margin-top: 2rem;
+
+}
+.about-space p{
+    margin-left:1rem;
+    font-size: 30px;
+}
+footer{ 
+    margin-top: 50px;
+    font-size: 30px;
+}
+footer p{
+    
+    text-align: right;
+
+}
+footer p:hover{
+    color: white;
+    background-color: black;
+}
+footer a{
+    text-decoration: none;
+} 
