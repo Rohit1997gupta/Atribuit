@@ -9,12 +9,14 @@
      min-height: 100vh; 
     border: 10px solid rgb(78, 75, 59);
     color: white;
+    
 
 }
 
 .content {
     max-width: 1000px;
     margin: 0 auto;
+    font-size: 20;
 }
 
 .top-section {
@@ -93,30 +95,24 @@ ul li{
 }
 .about-tesla h5{
     font-size: 30px;
-    margin-left: 1rem;
-}
-.about-space{
-    display: flex;
-    margin-top: 2rem;
-
-}
-.about-space p{
-    margin-left:1rem;
-    font-size: 30px;
-}
-footer{ 
-    margin-top: 50px;
-    font-size: 30px;
-}
-footer p{
     
-    text-align: right;
-
 }
+
+ footer{  
+     margin-top: 50px;
+    font-size: 30px;
+     text-align: right; 
+} 
+
+
 footer p:hover{
-    color: white;
+    color: rgb(211, 17, 17);
     background-color: black;
 }
-footer a{
-    text-decoration: none;
-} 
+
+ 
+.about-spaceX{
+    display: flex;
+    
+    font-size: 20px;
+}
